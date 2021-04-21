@@ -1,7 +1,7 @@
 h1, h2, h3 {
   font-family: 'Cardo', serif;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 34px;
   color: black;
 }
 
@@ -12,7 +12,7 @@ div {
 p {
     display: block;
     margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-end: 2em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -59,6 +59,10 @@ li {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+.list-separate li {
+    text-align: left;
 }
 
 .list-inline i {
