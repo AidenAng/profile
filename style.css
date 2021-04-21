@@ -1,0 +1,101 @@
+h1, h2, h3 {
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    background: #373F47;
+    color: #554348;
+    font-family: 'Philosopher', sans-serif;;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  color: #D4F5F5;
+  text-decoration: none;
+}
+ß
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+    background-color: #8B8982;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 36 auto;
+    text-align: center;
+    width: 500px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #554348;
+}
+
+.list-inline {
+    list-style: none;
+      list-style-position: initial;
+      list-style-image: initial;
+      list-style-type: none;
+    padding-left: 0px;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
